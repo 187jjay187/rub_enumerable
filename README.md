@@ -24,7 +24,7 @@
 
 # 📖 Enumerable in Ruby <a name="about-project"></a>
 
-> This project aims to demonstrate the use of a module inside a class. A class named "MyList" has been created along with a module named "MyEnumerable". The module "MyEnumerable" implements a limited subset of the features of the "Enumerable" module.
+> This project aims to demonstrate the use of a module inside a class. A class named "MyList" has been created along with a module named "My_Enumerable". The module "MyEnumerable" implements a limited subset of the features of the "Enumerable" module.
 
 ## 🛠 Built With <a name="built-with"></a>
 
