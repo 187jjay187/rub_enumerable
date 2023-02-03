@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# Module for custom enumerable functionalities
 module MyEnumerable
   def all?
     listeach { |item| return false unless yield item }

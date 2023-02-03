@@ -1,12 +1,16 @@
+# frozen_string_literal: true
+
 require_relative './enumerable'
+
+# Class documentation
 class MyList
   include MyEnumerable
   def initialize(*list)
     @list = list
   end
 
-  def listeach
-    return to_enum(:listeach) unless block_given?
+  def each
+    return to_enum(:each) unless block_given?
 
     counter = 0
     while counter < @list.length
